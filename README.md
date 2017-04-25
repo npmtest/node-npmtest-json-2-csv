@@ -1,6 +1,6 @@
 # npmtest-json-2-csv
 
-#### test coverage for  [json-2-csv (v2.1.0)](https://github.com/mrodrig/json-2-csv)  [![npm package](https://img.shields.io/npm/v/npmtest-json-2-csv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-2-csv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-2-csv.svg)](https://travis-ci.org/npmtest/node-npmtest-json-2-csv)
+#### basic test coverage for  [json-2-csv (v2.1.0)](https://github.com/mrodrig/json-2-csv)  [![npm package](https://img.shields.io/npm/v/npmtest-json-2-csv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-2-csv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-2-csv.svg)](https://travis-ci.org/npmtest/node-npmtest-json-2-csv)
 
 #### A JSON to CSV and CSV to JSON converter that natively supports sub-documents and auto-generates the CSV heading.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-json-2-csv/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-json-2-csv/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-json-2-csv/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-json-2-csv/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json-2-csv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json-2-csv/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-json-2-csv/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-json-2-csv/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json-2-csv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json-2-csv/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-json-2-csv/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-json-2-csv/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "coverage": "istanbul cover ./node_modules/.bin/_mocha -- -R spec",
         "test": "mocha test/tests.js"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
